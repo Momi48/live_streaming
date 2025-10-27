@@ -112,6 +112,9 @@ Join the same channel from another device to watch
   <img src="https://github.com/user-attachments/assets/5298ad4f-57d6-4070-b3a4-6ac92b1c2844" width="220" />
   <img src="https://github.com/user-attachments/assets/51eb3767-3c78-4cd8-84b9-dbb7db881254" width="220" />
   <img src="https://github.com/user-attachments/assets/b4d05f00-0692-4ff5-a1fe-081bed01fe7c" width="220" />
+  <img src="https://github.com/user-attachments/assets/6760f6b1-e6cd-4411-95f1-1e4eddaea9c1" width="400" />
+  <img src="https://github.com/user-attachments/assets/d1c1f40c-507f-4a08-9417-ad0a06cef99b" width="400" />
+  <img src="https://github.com/user-attachments/assets/3590963b-70e3-4b7c-9ece-a049c890f643" width="400" />
 </p>
 
 
