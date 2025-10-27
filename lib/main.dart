@@ -18,13 +18,13 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: FirebaseOptions(
-        apiKey: "AIzaSyBLUNS-G_sQILTNKlz1TTko9xi2DAum_rg",
-        authDomain: "twitch-fc515.firebaseapp.com",
-        projectId: "twitch-fc515",
-        storageBucket: "twitch-fc515.firebasestorage.app",
-        messagingSenderId: "958764320171",
-        appId: "1:958764320171:web:f7b8c7b8adf7a17591feee",
-        measurementId: "G-3EQ0DBKMWK",
+        apiKey: "",
+        authDomain: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: "",
+        appId: "",
+        measurementId: "",
       ),
     );
   }
