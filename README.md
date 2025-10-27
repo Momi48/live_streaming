@@ -95,7 +95,7 @@ flutter pub get
 flutter run
 ```
 
-**Start Broadcasting** 🎬
+8️⃣ **Start Broadcasting** 🎬
 
 Enter your IP and Port on the “Go Live” screen
 
