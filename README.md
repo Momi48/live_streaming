@@ -18,13 +18,13 @@ This project lets users **go live**, **watch streams**, and **chat in real-time*
 
 ## 🔧 Setup Steps
 
-### 1️⃣ Clone the project
+### 1️⃣ **Clone the project**
 ```bash
 git clone https://github.com/yourusername/twitch_clone.git
 cd twitch_clone
 
 ````
-**Add Agora credentials**
+2️⃣ **Add Agora Credentials**
 
 Go to Agora Console
 
@@ -34,19 +34,19 @@ App ID
 
 Temporary Token
 
-Add them to:
+Add them into your Flutter file:
 ```bash
 // lib/utils/agora_config.dart
 const String appId = "YOUR_AGORA_APP_ID";
 const String tempToken = "YOUR_TEMP_TOKEN";
 ```
-**Add Firebase configuration**
+3️⃣ Add Firebase Configuration
 
-Create a Firebase project
+Create a Firebase project from Firebase Console
 
-Add your Flutter app (use your package name)
+Add your Flutter app (with your actual package name)
 
-Download google-services.json → put it in:
+Download google-services.json and place it in:
 ```bash
 android/app/google-services.json
 ```
@@ -56,7 +56,7 @@ For iOS:
 ios/Runner/GoogleService-Info.plist
 ```
 
-**Add Supabase credentials**
+4️⃣ Add Supabase Credentials
 
 Go to Supabase
 
@@ -68,24 +68,29 @@ Project URL
 
 Anon Key
 
-Add them to:
+Add them to your Flutter config:
 ```bash
 // lib/utils/supabase_config.dart
 const String supabaseUrl = "YOUR_SUPABASE_URL";
 const String supabaseAnonKey = "YOUR_SUPABASE_KEY";
 ```
-**Set your IP and Port**
+5️⃣ Set Your IP and Port
 
-Find your PC’s IP using ipconfig (Windows) or ifconfig (Mac/Linux).
+Find your PC’s IP address:
+
+Windows: Run ipconfig in CMD
+
+Mac/Linux: Run ifconfig in Terminal
+
 Update your base URL in Flutter:
 ```bash
 String baseUrl = "http://YOUR_IP:YOUR_PORT/";
 ```
-Install dependencies
+6️⃣ Install Dependencies
 ```bash
 flutter pub get
 ```
-Run the app
+7️⃣ Run the App
 ```bash
 flutter run
 ```
