@@ -24,7 +24,7 @@ git clone https://github.com/yourusername/twitch_clone.git
 cd twitch_clone
 
 ````
-** Add Agora credentials**
+**Add Agora credentials**
 
 Go to Agora Console
 
