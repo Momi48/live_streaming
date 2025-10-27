@@ -107,7 +107,7 @@ class _BroadcastScreenState extends State<BroadcastScreen> {
     joinChannel();
   }
 
-  String baseUrl = 'http://192.168.0.107:8080/';
+  String baseUrl = 'http://x.x.10:2000/';
 
   String? token;
 
